@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"></meta>
+	<head>
+		<title>SnakeGame - Thainá Monteiro</title>
+		<style>
+			body { background-image: url("img/background.jpg"); }
+			canvas
+			{
+			background-color: #000000; 
+   	 		padding-left: 0;
+   	 		padding-right: 0;
+   	 		margin-left: auto;
+    		margin-right: auto;
+    		display: block;
+			}
+		</style>
+	</head>
+	<body onkeydown="keyboardDown(event)" onkeyup="keyboardUp(event)" onload="setInterval('gameMain()', 130)">
+		<script type="text/javascript" src="snake.js"></script>
+		<div align="center">
+			<!-- <p>Thainá Monteiro - TAMANHO ATUAL: <strong id="currSize"></strong> - TAMANHO ANTERIOR: <strong id="lastSize"></strong></p> -->
+			<canvas id="canvas" style="border:8px solid #12887d">
+			Baixe um navegador recente com suporte a <strong>HTML5</strong> 
+			</canvas>
+		</div>
+	</body>
+</html>
